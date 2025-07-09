@@ -16,7 +16,7 @@ class DashboardController {
     }
 
     public function index() {
-        global $conten, $title;
+        global $content, $title;
         $title = "Dashboard";
         $phone = $_SESSION['user_phone'] ?? null;
         $user = null;
