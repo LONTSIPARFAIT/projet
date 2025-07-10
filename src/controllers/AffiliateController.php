@@ -26,9 +26,9 @@ class AffiliateController {
             $user = $stmt->fetch(\PDO::FETCH_ASSOC);
 
             if ($user && $user['affiliate_link']) {
-                $affiliate_link = "http://localhost/register.php?ref=" . $user['phone'];
+                $affiliate_link = "http://localhost/mes-projets/eaglecash-poo/public/?action=register" . $user['phone'];
             } elseif ($user) {
-                $affiliate_link = "http://localhost/register.php?ref=" . $user['phone'];
+                $affiliate_link = "http://localhost/mes-projets/eaglecash-poo/public/?action=register" . $user['phone'];
                 $stmt = $this->db->prepare("UPDATE users SET affiliate_link = ? WHERE phone = ?");
                 $stmt->execute([$affiliate_link, $phone]);
             }
