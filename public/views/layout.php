@@ -32,7 +32,7 @@
 
     <?php if (isset($sessionManager) && isPaymentVerified($sessionManager)): ?>
     <header style="background-color: #2a4365; color: white; text-align: center; padding: 20px; position: fixed; top: 0; width: 100%; z-index: 50; display: flex; align-items: center; justify-content: center;">
-        <img id="logo" src="/mes-projets/eaglecash-poo/public/img/logo.jpg" alt="EagleCash Logo" style="width: 80px; height: auto; margin-right: 15px; border-radius: 8px; transition: transform 0.5s;">
+        <img id="logo" src="/mes-projets/eaglecash-poo/public/img/logo.png" alt="EagleCash Logo" style="width: 80px; height: auto; margin-right: 15px; border-radius: 8px; transition: transform 0.5s;">
         <h1 id="animated-text" style="margin: 0; font-size: 28px;"></h1>
     </header>
 
