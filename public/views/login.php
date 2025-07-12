@@ -33,7 +33,7 @@ $content = '
                     <div style="display: flex; gap: 0.5rem; align-items: center;">
                         <select name="country_code" id="country_code" onchange="updatePhonePlaceholder()" required style="flex: 1; max-width: 100px; padding: 0.75rem; border: 1px solid #e2e8f0; border-radius: 0.5rem; font-size: 1rem; appearance: none; background: url(\'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="%23374151" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>\') no-repeat right 0.75rem center/12px; cursor: pointer; height: 100%; box-sizing: border-box;">
                             <option value="">Pays</option>
-                 Z           <option value="+237">🇨🇲 +237</option>
+                            <option value="+237">🇨🇲 +237</option>
                             <option value="+225">🇨🇮 +225</option>
                             <option value="+226">🇧🇫 +226</option>
                             <option value="+241">🇬🇦 +241</option>
