@@ -98,7 +98,7 @@ class AffiliateController {
                                 <circle cx="12" cy="12" r="8"></circle>
                             </svg>
                             <h2 style="font-size: 1.5rem; font-weight: 700; color: #f59e0b; margin-bottom: 1rem; text-align: center; @media (min-width: 768px) { font-size: 1.75rem; text-align: left; } position: relative; z-index: 1;">
-                                Mon Équi
+                                Mon Équ
                             </h2>
                             <p style="margin-bottom: 1rem; font-size: 0.875rem; color: #718096; position: relative; z-index: 1;">Suivez vos gains et vos filleuls par niveau de parrainage.</p>
                             ' . (isset($_SESSION['success']) ? '<div style="background: #10b981; color: #ffffff; padding: 0.75rem; border-radius: 0.375rem; margin-bottom: 1rem; text-align: center; animation: fadeIn 0.5s; position: relative; z-index: 1;">' . htmlspecialchars($_SESSION['success']) . '</div>' : '') . '
